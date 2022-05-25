@@ -2,11 +2,11 @@
 
 @section('content')
 
-    {{-- @foreach ($movies as $key => $movie)
+    @foreach ($movies as $key => $movie)
     
     <h2>{{ $movie->title }}</h2>
 
-    @endforeach --}}
+    @endforeach
     <p>ciao</p>
     
 @endsection
