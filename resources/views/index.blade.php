@@ -4,9 +4,10 @@
 
     @foreach ($movies as $key => $movie)
     
-    <h2>{{ $movie->title }}</h2>
+    <a href="{{ route('show', ['id' => $key + 1]) }}">
+        <h2>{{ $movie->title }}</h2>
+    </a>
 
     @endforeach
-    <p>ciao</p>
     
 @endsection
